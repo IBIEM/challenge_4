@@ -1,0 +1,88 @@
+---
+title: "Challenge 4"
+subtitle: "Night of the Living R"
+output:
+  html_document:
+    df_print: paged
+---
+
+## Load Data
+
+You need to load the gapminder data into a dataframe.  You can do this directly from the Internet or download a local copy first.  The URL for the gapminder data is <https://raw.githubusercontent.com/swcarpentry/r-novice-gapminder/gh-pages/_episodes_rmd/data/gapminder_data.csv>
+
+```{r}
+
+```
+
+## Writing Data
+
+1. Write the gapminder data from *Angola* and *Argentina* to a file named `gapminder_angola_argentina.csv`.  The file should be in CSV format.  It should have column labels, but should not have row numbers and character strings should not be quoted.  
+
+> Hint: You can do this with a single command, but you don't have to.
+
+```{r}
+
+```
+
+
+## Dataframe Manipulation with dplyr
+
+2. Use `dplyr` to write a single command (which can span multiple lines and includes pipes) that produces a dataframe containing the data for all entries in gapminder where the population is less than *100000*.  This new dataframe should only have the population, country, continent, and year. Print the dataframe.
+
+```{r}
+
+```
+
+------------------------
+
+3. Use tools from `dplyr` to make a dataframe with the global *mean* life expectancy for each year in the gapminder dataset.
+
+```{r}
+
+```
+
+## Dataframe Manipulation with tidyr
+
+4. R has several built in dataset.  One of these is `iris`; you can take a peek at it with `head(iris)`.  Use tidyr to make a "long" version of the the iris dataframe.  The long version should have just 3 columns: Species, Measurement, Value.
+
+```{r}
+
+```
+
+## Producing Reports With knitr
+### Inline R code
+```{r}
+
+```
+
+5. In the following line of text you should replace *YEAR* and *MAX_POP* with inline code so that you can change the year of interest in a variable defined elsewhere and the sentence will be updated when knitted.  *Hint:* We have placed an empty code chunk immediately above this question; you will propably want to define some variables and do other work there so that your inline code is short.
+
+In YEAR the maximum population for any country was MAX_POP.
+
+### Chunk options
+
+6. Add options to the following chunk so that when this document is knitted, the figure is still shown, but the code chunk itself is not.
+
+```{r gapminder_plot}
+library("ggplot2")
+ggplot(data = gapminder, aes(x = gdpPercap, y = lifeExp)) +
+  geom_point()
+```
+
+### Formatting Text
+7. Rmarkdown allows you to format text in a number of ways, including bold, italics, and verbatim code.  Pick one of the formats from the the "Pandoc’s Markdown" section of the [Rmarkdown Cheatsheet](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf) and apply it to the following sentence, then knit this document to confirm that it worked:
+
+Rmarkdown is awesome!
+
+
+
+8. Below here you should make a Sub-sub section titled "Halloween Candy", then make a numbered list of your top 3 Halloween treats
+
+
+
+# Session Info
+Always print `sessionInfo` for reproducibility!
+```{r}
+
+```
+
