@@ -6,6 +6,14 @@ output:
     df_print: paged
 ---
 
+# Challenge 4
+These questions are based on the following SWC lessions
+- [Writing Data](http://swcarpentry.github.io/r-novice-gapminder/11-writing-data/)
+- [Dataframe Manipulation with dplyr](http://swcarpentry.github.io/r-novice-gapminder/13-dplyr/)
+- [Dataframe Manipulation with tidyr](http://swcarpentry.github.io/r-novice-gapminder/14-tidyr/)
+- [Producing Reports With knitr](http://swcarpentry.github.io/r-novice-gapminder/15-knitr-markdown/)
+- [Writing Good Software](http://swcarpentry.github.io/r-novice-gapminder/16-wrap-up/)
+
 ## Load Data
 
 You need to load the gapminder data into a dataframe.  You can do this directly from the Internet or download a local copy first.  The URL for the gapminder data is <https://raw.githubusercontent.com/swcarpentry/r-novice-gapminder/gh-pages/_episodes_rmd/data/gapminder_data.csv>
