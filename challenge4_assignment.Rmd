@@ -41,7 +41,7 @@ You need to load the gapminder data into a dataframe.  You can do this directly 
 
 ```
 
-------------------------
+
 
 3. Use tools from `dplyr` to make a dataframe with the global *mean* life expectancy for each year in the gapminder dataset.
 
