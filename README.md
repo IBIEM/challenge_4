@@ -8,11 +8,11 @@ You should have received an email invitation to access this assigment in Github 
 The goal of this challenge is to help you get more familiar with the material covered in the following lessons from [SWC: R for Reproducible Scientific Analysis](http://swcarpentry.github.io/r-novice-gapminder/)
 
 
-    - [Writing Data](http://swcarpentry.github.io/r-novice-gapminder/11-writing-data/)
-    - [Dataframe Manipulation with dplyr](http://swcarpentry.github.io/r-novice-gapminder/13-dplyr/)
-    - [Dataframe Manipulation with tidyr](http://swcarpentry.github.io/r-novice-gapminder/14-tidyr/)
-    - [Producing Reports With knitr](http://swcarpentry.github.io/r-novice-gapminder/15-knitr-markdown/)
-    - [Writing Good Software](http://swcarpentry.github.io/r-novice-gapminder/16-wrap-up/)
+- [Writing Data](http://swcarpentry.github.io/r-novice-gapminder/11-writing-data/)
+- [Dataframe Manipulation with dplyr](http://swcarpentry.github.io/r-novice-gapminder/13-dplyr/)
+- [Dataframe Manipulation with tidyr](http://swcarpentry.github.io/r-novice-gapminder/14-tidyr/)
+- [Producing Reports With knitr](http://swcarpentry.github.io/r-novice-gapminder/15-knitr-markdown/)
+- [Writing Good Software](http://swcarpentry.github.io/r-novice-gapminder/16-wrap-up/)
 
 You will need to:
 
