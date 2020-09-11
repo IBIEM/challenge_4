@@ -1,6 +1,6 @@
 # Challenge 4: Night of the Living R
-- *Assigned: September 13, 2019*
-- *Due: at 6pm on September 27, 2019*
+- *Assigned: September 11, 2020*
+- *Due: at 6pm on September 25, 2020*
 
 ## Assignment
 You should have received an email invitation to access this assigment in Github Classroom.  If you haven't received it, please [post an Issue](https://github.com/IBIEM/community/issues)
